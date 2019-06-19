@@ -1,5 +1,6 @@
 // https://github.com/storybookjs/storybook/tree/next/addons/storysource
 module.exports = function({ config }) {
+  config.mode = 'development';
   config.module.rules.push({
     test: /\.stories\.jsx?$/,
     loaders: [

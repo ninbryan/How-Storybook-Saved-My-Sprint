@@ -1,0 +1,35 @@
+.example {
+  display: block;
+  padding: 10px;
+  outline: 3px solid rgb(200, 100, 100);
+}
+
+.example li {
+  display: block;
+  padding: 10px;
+  background-color: rgba(0, 100, 200, 0.05);
+  outline: 3px solid rgb(0, 100, 200);
+}
+.owl * + * {
+  margin-top: 10px;
+}
+
+.example .empty {
+  font-weight: 900;
+}
+
+.example .red,
+.example .green,
+.example .blue {
+  outline: 3px solid;
+  padding: 10px;
+}
+.example .red {
+  outline-color: red;
+}
+.example .green {
+  outline-color: green;
+}
+.example .blue {
+  outline-color: blue;
+}
