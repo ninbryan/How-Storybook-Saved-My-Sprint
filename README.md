@@ -30,8 +30,12 @@ My team happens to work on new features for our loyal users.
 
 ---
 
-The current project is to introduce a new category of reviewing _certain_ items.
-The service & QA testing data, is not yet fully available for the new feature.
+The current project is to introduce
+a new category of reviewing _certain_ items.
+
+The service & QA testing data,
+is not yet fully available for the new feature.
+
 It will be ready... but we need to get the ball rolling.
 It is in this page that takes several steps:
 
@@ -142,7 +146,7 @@ ZERO.
 
 ---
 
-When I first wrote the component, I simply was concerned about displaying items.
+When I first wrote the component, we were concerned about displaying items.
 
 We didn't consider what would happen when it was EMPTY!
 
@@ -162,7 +166,7 @@ It's empty.
 
 ---
 
-And then need to introduce LOADING!
+And then we need to introduce LOADING!
 
 Usually, the website loads with the full page.
 
@@ -188,7 +192,7 @@ I realized a lot of interesting capabilities
 
 and we had duplicate a lot of this capability.
 
-We have like 5 data sets to wait for.
+In the page, we have like 5 data sets to wait for.
 
 ---
 
@@ -200,9 +204,7 @@ Yeah.
 
 It's not pretty.
 
-It was enough.
-
-I wanted to show off this example of grouping knobs.
+It's enough to show off this example of grouping knobs.
 
 ---
 
@@ -216,14 +218,16 @@ and this... an error!
 
 ## In Summary
 
-In Summary, there was a time we had to go through the process
-of getting to the page and integrate the updates.
+In Summary, there was a time we had to
+go through the process
+of getting to the page
+ and integrate the updates, these components.
 
 It wasn't fun when services went down.
 
 ---
 
-In our case, we had QA testing data environment.
+In our case, we had QA testing data environment with services.
 
 Maybe for your case, you don't have wifi.
 
@@ -235,13 +239,16 @@ I just needed to mock enough of my data.
 
 Storybook accomplishes some woes for the team.
 
-It has given me the chance to work on things even though the API isn't ready yet.
+It has given me the chance to work on features even though the API isn't ready yet.
 
 When it is ready, we can update accordingly.
 
 Maybe I got the data wrong.
 
 wrong property names.
+
+didn't even bother covering redux.
+that's something to explore on.
 
 ---
 
@@ -263,5 +270,5 @@ Storybook can even support regular HTML `document.createElement()`
 ## LINKS
 
 - Github Repo! https://github.com/ninbryan/How-Storybook-Saved-My-Sprint
-- storybook main site https://storybook.js.org/
+- storybook website https://storybook.js.org/
 - tutorial https://www.learnstorybook.com/

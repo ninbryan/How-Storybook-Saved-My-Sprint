@@ -2,7 +2,7 @@
 import React from "react";
 
 import { storiesOf } from "@storybook/react";
-import { number, select, withKnobs } from "@storybook/addon-knobs";
+import { boolean, number, select, withKnobs } from "@storybook/addon-knobs";
 
 import App from "../App/App";
 import DaList from "./Example1";
@@ -36,11 +36,12 @@ storiesOf("Example", module)
     );
   })
   .add("#2", () => {
+    const hasData = boolean('is loading', false);
     const numberOfItems = number("items", 4, numberOptions);
 
     return (
       <App>
-        <Example2 data={makeItems(numberOfItems, mapItem)} />
+        <Example2 data={hasData ? undefined : makeItems(numberOfItems, mapItem)} />
       </App>
     );
   })
